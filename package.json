@@ -1,0 +1,21 @@
+{
+  "name": "nerdsnake",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "dev": "meteor --settings settings-development.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }
+  },
+  "dependencies": {}
+}
