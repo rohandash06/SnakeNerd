@@ -1,0 +1,30 @@
+.test {
+	text-align :center;
+}
+
+.w200 {
+	width: 200px;
+}
+
+.pos-relative {
+	position: relative;
+}
+
+.pos-absolute {
+	position: absolute;
+}
+
+.btn {
+	top: 0px;
+	left: 0px;
+	padding : 10px 20px;
+	text-align: center;	
+}
+
+.btn-before {
+	border : 1px solid black;
+}
+
+.btn-after {
+	border : 1px solid red;
+}

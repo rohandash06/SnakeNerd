@@ -1,0 +1,25 @@
+.component-404 {
+	background-color : #fff;
+	color : #1b1c1d;
+	text-align: center;
+
+	/*position: relative;*/
+}
+
+.centered-404 {
+    /*vertical-align: middle;*/
+    /*font-size: 60px;*/
+    padding: 80px;
+    font-weight: 900;
+    /*line-height: 500px;*/
+}
+
+.message-404 {
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.redirect-404 {
+	margin-top: 20px;
+	display: block;
+}

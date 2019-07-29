@@ -1,0 +1,244 @@
+#app-body {
+	font-size: 16px;
+	background-color: #1b1c1d;
+	color: #fff;
+}
+
+.game-strip {
+    background: url('/img/blur_alaska_cropped.jpg');
+    background-size: cover;
+    color: white;
+}    
+
+.game-strip-container {
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+.inner-game-strip-container {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.game-container-svg {
+	/*border : solid 4px gray ;*/
+	border : solid 4px #2db2ea ;
+	background-color: #f8f8f8;
+}
+
+
+.snake-body {
+	fill : #555353;
+}
+
+.food-on-board {
+	fill : transparent;
+	opacity : 0.4;
+}
+
+.final-result-dimmer .answer-option {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.QA {
+	margin-top: -6px;
+	padding-top: 20px;
+	padding-left: 50px;
+
+	text-align: left;
+}
+
+.QA .button {
+	margin-right: 8px !important; 
+}
+
+.question {
+	font-size: 20px;
+}
+
+.question-tag {
+	background-color: #2db2ea;
+}
+
+.padtop0 {
+	padding-top: 0px !important;
+}
+
+.mt30 {
+	margin-top: 30px !important;
+}
+
+.mb30 {
+	margin-bottom: 30px !important;
+}
+
+.mb0 {
+	margin-bottom: 0px !important;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.play-snake {
+	background-color: #2db2ea !important;
+	color: #fff !important;
+}
+
+.btn-instructions {
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+.points-div {
+    background-color: #21BA45 !important;
+    color: #fff;
+    padding: 20px
+}
+
+.points-div .label , .points-div .value {
+	color: #fff !important;
+}
+
+.setup-form-modal {
+	height: 376px;
+}
+
+.font30 {
+	font-size: 30px !important;
+}
+
+.font32 {
+	font-size: 32px !important;
+}
+
+.font25 {
+	font-size: 25px !important;
+}
+
+.font20 {
+	font-size: 20px !important;
+}
+
+.color-red {
+	color: red;
+}
+
+.color-black {
+	color: black;
+}
+
+.game-instructions-div {
+	font-size: 20px;
+}
+
+.copyright-text {
+	color : #cfcfcf;
+}
+
+.to-hide, .to-remove {
+	display: none;
+} 
+
+i.icon.facebook:before {
+    content: "\f09a" !important;
+}
+
+.correct-answer {
+	font-weight: bold;
+	color : #21ba45;
+	text-decoration: underline;
+}
+
+.hide-dimmer {
+	color: #fff;
+	cursor: pointer;
+}
+
+.hide-dimmer:hover {
+	color : #304d8a
+}
+
+.top-right-10 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.move-to-laptop-desktop-p {
+	font-size: 18px;
+}
+
+/* Not Mobile Screen */
+@media screen and (min-device-width: 801px) {
+	.move-to-laptop-desktop {
+		display: none !important;
+	}
+}
+
+/* Mobile Screen */
+@media screen and (max-device-width: 800px) {
+	.inner-game-strip-container {
+		display: none !important;
+	}
+	
+	.move-to-laptop-desktop-p {
+		color: #fff;
+	}
+
+	.move-to-laptop-desktop {
+		display: block;
+	}
+}
+
+.countdown-item {
+    position: relative;
+}
+
+.countdown-item h2 {
+	font-size: 50px;
+    text-align:center;
+    position: absolute;
+    line-height: 155px;
+    width: 100%;
+}
+
+.countdown-item svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.countdown-item .circle_animation {
+  stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+  /*transition: all 0.8s linear;*/
+}
+
+.arrowIcons{
+	/*	
+	margin-right: 3px;
+	color: #fff;
+	background-color: #2db2ea;
+	border: 1px solid #2db2ea;
+	*/
+	color : #21BA45;
+}
+
+/*laptop screen*/
+/*@media screen and (min-device-width: 1200px) and (max-device-width: 1800px){
+	.QA {
+		padding-left: 50px;
+	}
+}
+*/
+/*desktop screen*/
+/*@media screen and (min-device-width: 1800px){
+	.QA {
+		padding-left: 100px;
+	}
+}*/
